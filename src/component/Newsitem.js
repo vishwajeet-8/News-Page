@@ -8,11 +8,11 @@ const Newsitem = (props) => {
         <img
           src={
             !imageUrl
-              ? "https://apicms.thestar.com.my/uploads/images/2023/01/31/1922849.jpg"
+              ? ""
               : imageUrl
           }
           className="card-img-top"
-          alt="..."
+          alt="Unable to load image"
         />
         <div className="card-body">
           <h5 className="card-title">
