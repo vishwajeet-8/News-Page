@@ -12,7 +12,7 @@ const Newsitem = (props) => {
               : imageUrl
           }
           className="card-img-top"
-          alt="Unable to load image"
+          alt="Unable to load pic"
         />
         <div className="card-body">
           <h5 className="card-title">
